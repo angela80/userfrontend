@@ -74,6 +74,26 @@ function fetchGitHubInformation(event) {
                     `<h2>Error: ${errorResponse.responseJSON.message}</h2>`);
             }
         });
+        
+        
 }
 
 $(document).ready(fetchGitHubInformation);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
