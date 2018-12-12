@@ -1,4 +1,4 @@
-function userInformationHTML(user) {
+ function userInformationHTML(user) {
     return `
         <h2>${user.name}
             <span class="small-name">
@@ -74,26 +74,6 @@ function fetchGitHubInformation(event) {
                     `<h2>Error: ${errorResponse.responseJSON.message}</h2>`);
             }
         });
-        
-        
 }
 
 $(document).ready(fetchGitHubInformation);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

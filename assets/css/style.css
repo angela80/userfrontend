@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('HTTPS://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /*--------------------------------------------Colors*/
 
@@ -118,7 +118,7 @@ header {
 }
 
 .logo {
-    background: url("../images/rosie.jpg");
+    background: url("/assets/css/images/26993959_10213271355832007_1541682521737442782_n.jpg ");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -363,36 +363,33 @@ footer .cv-pdf i:hover {
     margin-bottom: 30px;
 }
 
-
-/*--------------------------------------------Map*/
-
-div#map {
-    min-height: 360px;
-}
-
-
 /*--------------------------------------------Contact*/
-.contact-heading{
-    font-family: Exo,Sans-serif;
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.center-form{
+
+.center-form {
     padding-top: 10px;
-    margin:0 auto;
+    margin: 0 auto;
     max-width: 70%;
 }
 
-button[type="submit"]{
+.button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
-    background-color: #84610;
+    background-color: #e84610;
     color: #fafafa;
 }
 
-
+/*--------------------------------------------Map*/
+div#map {
+    min-height: 360px;
+}
 
 /*--------------------------------------------Media Queries*/
 
